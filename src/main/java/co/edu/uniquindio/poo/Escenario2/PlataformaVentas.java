@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.Escenario2;
 
 import java.util.ArrayList;
 import java.util.HashMap;

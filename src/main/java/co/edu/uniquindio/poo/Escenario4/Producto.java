@@ -1,37 +1,32 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.Escenario4;
 
 public class Producto {
 
-    private String codigo;
+    private int codigo;
     private String nombre;
     private double precio;
     private String categoria;
 
-    public Producto(String codigo, String nombre, double precio, String categoria) {
+    public Producto(int codigo, String nombre, double precio, String categoria) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.precio = precio;
         this.categoria = categoria;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
-    }
-
-    public String getNombre() {
-        return nombre;
     }
 
     public double getPrecio() {
         return precio;
     }
 
-    public String getCategoria() {
-        return categoria;
-    }
-
     @Override
     public String toString() {
-        return codigo + " - " + nombre + " ($" + precio + ") [" + categoria + "]";
+        return "Codigo: " + codigo +
+                " | Nombre: " + nombre +
+                " | Precio: $" + precio +
+                " | Categoria: " + categoria;
     }
 }
